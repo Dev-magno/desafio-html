@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    height: 1000px;
+}
+.menu {
+    width: 15%;
+    background-color: #e0e0e0;
+    padding: 15px 20px 0px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+  }
+
+.menu a {
+    color: #0462a0;
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.menu a:hover{
+    background-color: #cacaca;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.header {
+    background-image: url('img/logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    border-bottom: solid 1px black;
+    padding-bottom: 100px;
+
+}
+
+.sobre-nos {
+    background-image: url('img/sobrenos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    border-bottom: solid 1px black;
+    padding-bottom: 100px;
+}
+
+.servicos {
+    background-image: url('img/nossosservicos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60px;
+    border-bottom: solid 1px black;
+    padding-bottom: 280px;
+}
+
+.contato {
+    background-image: url('img/contato.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 190px;
+    border-bottom: solid 1px black;
+    padding-top: 160px;
+}
+.section h1 {
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.section p {
+    font-size: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 15px;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.section a{
+    text-decoration: none; 
+}
+
+.div-link {
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.link{
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.div-sessao{
+    display: inline-block;
+    border-top: solid 1px #7cb30e;
+    width: 100%;
+    text-align: center;
+}
+
+.div-sessao h2{
+    text-align: center; 
+    font-size: 25px;    
+}
+
+.div-sessao p{
+    text-align: center; 
+    font-size: 19px;    
+}
+
+.atender {
+    display: inline-block;
+    margin: 1%;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    margin: 1%;
+    border: solid 1px #7cb30e;
+    border-radius: 5px;
+}
+
+.rodape{
+    background-color: #7cb30e;
+    color: white;
+    height: 320px;
+    font-size: 14px;
+    position: relative;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin-bottom: 0px;
+    justify-content: center;
+    padding: 50px 10px 40px 60px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3{
+    display: flex;
+    width: calc(100% / 3 - 40px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: rgb(26, 25, 25);
+    padding: 10px;
+    margin: px;
+    text-align: center;
+    border-top: solid 2px black;
+    color: #FFFFFF;
+    position: absolute;
+}
