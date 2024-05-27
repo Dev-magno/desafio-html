@@ -20,7 +20,6 @@ body {
     display: flex;
     flex-flow: column;
     width: 85%;
-    height: 1000px;
 }
 .menu {
     width: 15%;
@@ -183,40 +182,60 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.localizacao {
+.div-contact {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: rgb(94, 163, 94);
-    width: 100%;
+    justify-content: center;
+    
 }
 
 .form {
-    width: 50%;
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 3%;
+    padding-bottom: 1.5%;
+    background-color: #7cb30e;
+    border-radius: 10px 15px 0px;
 }
 
+.form-h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.form-h4 {
+    font-size: 20px;
+    text-align: center;
+}
 .form input {
-    display: block;
-    margin-left: 15%;
-    width: 70%;
-    padding: 2%;
-    margin-top: 8px;
+    padding: 1.5%;
+    margin-top: 0px;
     border-radius: 5px;
     border: none;
-    background-color: #cacaca;
+    background-color: #f1f1f1;
 }
 
 .submit {
     background-color: #cacaca;
-    width: 30%;
-    margin-left: 35%;
-    padding: 2px;
-    border-radius: 3px;
+    width: 10%;
 }
-   
-.frane {
-    width: 50%;
-    margin-bottom: 0;
+
+.voltar {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 3%;
+    background-color: #7cb30e;
+}
+
+.endereco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
@@ -226,6 +245,7 @@ a {
     height: 320px;
     font-size: 14px;
     position: relative;
+    margin-bottom: 5%;
 }
 .rodape a{
     text-decoration: none;
