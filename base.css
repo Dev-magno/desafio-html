@@ -21,10 +21,11 @@ body {
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
     background-color: #e0e0e0;
-    padding: 15px 20px 0px;
+    padding: 15px 20px 0px;  
 }
 
 li {
@@ -56,6 +57,7 @@ li {
 
 }
 
+
 .sobre-nos {
     background-image: url('img/sobrenos.png');
     background-size: cover;
@@ -74,6 +76,17 @@ li {
     min-height: 60px;
     border-bottom: solid 1px black;
     padding-bottom: 280px;
+}
+
+.consul {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 5px 5px 2px silver;
+}
+
+.div-servicos {
+    display: flex;
 }
 
 .contato {
@@ -245,16 +258,20 @@ a {
     height: 320px;
     font-size: 14px;
     position: relative;
-    margin-bottom: 5%;
+    margin-bottom: 0px;
+    height: auto;
 }
+
 .rodape a{
     text-decoration: none;
     color: white;
 }
+
 .rodape p{
     margin-bottom: 5px;
     font-size: 15px;
 }
+
 .rodape-div{
     display: flex;
     flex-wrap: wrap;
@@ -263,20 +280,23 @@ a {
     justify-content: center;
     padding: 50px 10px 40px 60px;
 }
+
 .rodape-div-1, .rodape-div-2, .rodape-div-3{
     display: flex;
     width: calc(100% / 3 - 40px);
     padding: 10px;
 }
+
 .rodape span{
     font-size: 20px;
     color: white;
 }
+
 .rodape-direitos{
     width: calc(100% - 20px);
     background-color: rgb(26, 25, 25);
     padding: 10px;
-    margin: px;
+    margin: 0px;
     text-align: center;
     border-top: solid 2px black;
     color: #FFFFFF;
